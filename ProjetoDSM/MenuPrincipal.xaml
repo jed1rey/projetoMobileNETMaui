@@ -1,38 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ProjetoDSM.MenuPrincipal"
-             Title="MenuPrincipal">
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:pages="clr-namespace:ProjetoDSM.Pages"
+            x:Class="ProjetoDSM.MenuPrincipal"
+            Title="ScoreView">
 
+    <pages:PaginaScore />
+    <pages:PaginaDicas />
+    <pages:PaginaSobre />
 
-
-    <ContentPage Title="Home">
-        <StackLayout>
-            <Label Text="Página Principal" FontSize="30"
-                   HorizontalTextAlignment="Center"/>
-
-        </StackLayout>
-        
-    </ContentPage>
-
-    <ContentPage Title="Servicos" IconImageSource="speedometer.png">
-        <StackLayout>
-            <Label Text="Página de Serviços" FontSize="30"
-            HorizontalTextAlignment="Center"/>
-
-        </StackLayout>
-        
-
-    </ContentPage>
-
-    <ContentPage Title="Sobre" IconImageSource="speedometer.png">
-        <StackLayout>
-            <Label Text="Página sobre o APP" FontSize="30"
-            HorizontalTextAlignment="Center"/>
-
-        </StackLayout>
-
-    </ContentPage>
-    
-    
 </TabbedPage>

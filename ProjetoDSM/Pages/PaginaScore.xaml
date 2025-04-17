@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjetoDSM.Pages.PaginaScore"
+             Title="Meu Score"
+             IconImageSource="score.png">
+
+    <StackLayout Padding="20">
+        <Label Text="Seu Score Atual: 750"
+               FontSize="30"
+               HorizontalTextAlignment="Center"
+               TextColor="Green"/>
+        <Label Text="Paula Cristina Abib Teixeira"
+               HorizontalTextAlignment="Center"
+               FontSize="14"
+               TextColor="Gray"/>
+    </StackLayout>
+
+</ContentPage>
