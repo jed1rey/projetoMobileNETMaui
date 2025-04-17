@@ -6,7 +6,7 @@
 
 
 
-    <ContentPage Title="Home" IconImageSource="speedometer.png">
+    <ContentPage Title="Home">
         <StackLayout>
             <Label Text="Página Principal" FontSize="30"
                    HorizontalTextAlignment="Center"/>
@@ -21,6 +21,7 @@
             HorizontalTextAlignment="Center"/>
 
         </StackLayout>
+        
 
     </ContentPage>
 
