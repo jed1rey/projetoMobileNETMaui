@@ -1,7 +1,7 @@
 # 📊 ScoreView
 
 ### **ScoreView** é um aplicativo mobile desenvolvido em .NET MAUI que permite aos usuários visualizarem o seu score financeiro e receberem dicas de como melhorá-lo.
-Trabalho entregue na matéria Desenvolvimento Mobile da FATEC FRANCA
+### Trabalho entregue na matéria Desenvolvimento Mobile da FATEC FRANCA
 ---
 
 ## 📱 Funcionalidades
