@@ -12,7 +12,7 @@
   - **Dicas** – oferece sugestões para melhorar o score.
   - **Sobre** – explica o que é o score e sua importância.
 - Layout moderno com uso de **StackLayout**, **Grid**, **Entry**, **Button**, **Label**, **Image**, **Navigation**, entre outros.
-- Interface visual agradável, responsiva e com identidade visual profissional.
+- Interface visual agradável e responsiva
 - Ícones personalizados em cada aba para facilitar a usabilidade.
 
 ---
