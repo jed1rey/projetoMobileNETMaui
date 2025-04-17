@@ -3,17 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProjetoDSM.Pages.PaginaScore"
              Title="Meu Score"
-             IconImageSource="score.png">
+             IconImageSource="score.png"
+             BackgroundColor="#ffffff">
 
-    <StackLayout Padding="20">
+    <StackLayout Padding="30" Spacing="20">
         <Label Text="Seu Score Atual: 750"
-               FontSize="30"
-               HorizontalTextAlignment="Center"
-               TextColor="Green"/>
-        <Label Text="Paula Cristina Abib Teixeira"
-               HorizontalTextAlignment="Center"
-               FontSize="14"
-               TextColor="Gray"/>
-    </StackLayout>
+               FontSize="34"
+               FontAttributes="Bold"
+               TextColor="#1565c0"
+               HorizontalTextAlignment="Center"/>
 
+        <Image Source="score.png"
+               HeightRequest="100"
+               HorizontalOptions="Center"/>
+
+        <Label Text="Paula Cristina Abib Teixeira"
+               FontSize="14"
+               TextColor="#666666"
+               HorizontalTextAlignment="Center"/>
+    </StackLayout>
 </ContentPage>

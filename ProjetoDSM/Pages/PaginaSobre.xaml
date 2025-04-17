@@ -3,17 +3,26 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProjetoDSM.Pages.PaginaSobre"
              Title="Sobre"
-             IconImageSource="speedometer.png">
+             IconImageSource="info.png"
+             BackgroundColor="#f0f0f0">
 
-    <StackLayout Padding="20">
+    <StackLayout Padding="30" Spacing="20">
         <Label Text="O que é Score?"
-               FontSize="24"
-               HorizontalTextAlignment="Center"
-               TextColor="Black"/>        
-        <Label Text="Paula Cristina Abib Teixeira"
-               HorizontalTextAlignment="Center"
-               FontSize="14"
-               TextColor="Gray"/>
-    </StackLayout>
+               FontSize="26"
+               FontAttributes="Bold"
+               TextColor="#333333"
+               HorizontalTextAlignment="Center"/>
 
+        <BoxView HeightRequest="2" Color="#cccccc" />
+
+        <Image Source="info_color.png"
+               HeightRequest="100"
+               HorizontalOptions="Center"/>
+
+
+        <Label Text="Paula Cristina Abib Teixeira"
+               FontSize="14"
+               TextColor="#666666"
+               HorizontalTextAlignment="Center"/>
+    </StackLayout>
 </ContentPage>
