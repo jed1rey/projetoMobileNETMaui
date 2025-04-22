@@ -31,4 +31,4 @@
 
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/seu-usuario/ScoreView.git](https://github.com/jed1rey/projetoMobileNETMaui)
+   git clone https://github.com/jed1rey/projetoMobileNETMaui
